@@ -10,7 +10,7 @@
         mc:Ignorable="d"
         Title="Integral hisoblash" Height="450" Width="800" 
         
-        Background="Transparent">
+        Background="Transparent" Icon="/icon.png">
 
     <Window.Resources>
         <DataTemplate x:Name="integral_xn" DataType="{x:Type viewmodels:Integral_xn}">
