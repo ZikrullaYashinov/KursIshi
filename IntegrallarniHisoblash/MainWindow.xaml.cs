@@ -35,5 +35,10 @@ namespace IntegrallarniHisoblash
         {
             DataContext = new Integral_sinkx();
         }
+
+        private void Integral_coskx_Clicked(object sender, RoutedEventArgs e)
+        {
+            DataContext = new Integral_coskx();
+        }
     }
 }

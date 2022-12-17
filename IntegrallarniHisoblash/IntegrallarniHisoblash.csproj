@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -55,13 +56,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModels\Integral_coskx.cs" />
     <Compile Include="ViewModels\Integral_sinkx.cs" />
     <Compile Include="ViewModels\Integral_xn.cs" />
-    <Compile Include="Views\UserControl_Integral_sinkx.xaml.cs">
-      <DependentUpon>UserControl_Integral_sinkx.xaml</DependentUpon>
+    <Compile Include="Views\UserControl_coskx.xaml.cs">
+      <DependentUpon>UserControl_coskx.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\UserControl_Integral_xn.xaml.cs">
-      <DependentUpon>UserControl_Integral_xn.xaml</DependentUpon>
+    <Compile Include="Views\UserControl_sinkx.xaml.cs">
+      <DependentUpon>UserControl_sinkx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserControl_xn.xaml.cs">
+      <DependentUpon>UserControl_xn.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -76,11 +81,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Views\UserControl_Integral_sinkx.xaml">
+    <Page Include="Views\UserControl_coskx.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\UserControl_Integral_xn.xaml">
+    <Page Include="Views\UserControl_sinkx.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UserControl_xn.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
